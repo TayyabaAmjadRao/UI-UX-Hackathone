@@ -13,6 +13,7 @@ export type ProductTypes = {
         id: number,
         tagName: string
     }],
+    
     colors: [{
         id: number,
         colorHexCode: string,
