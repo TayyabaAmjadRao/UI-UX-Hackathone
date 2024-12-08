@@ -11,6 +11,7 @@ interface ShareButtonProps {
     productId: number
 };
 
+
 const ShareButton: FC<ShareButtonProps> = ({ productId }) => {
     const [openModal, setOpenModal] = useState(false);
     const currentProductUrl = window.location.origin;
