@@ -17,6 +17,7 @@ interface ProductState {
     tags: TagType[],
 };
 
+
 export const getAllSizes = createAsyncThunk(
     'shop/getAllSizes',
     async () => {
