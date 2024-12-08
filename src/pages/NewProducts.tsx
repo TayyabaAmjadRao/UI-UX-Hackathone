@@ -11,6 +11,7 @@ const NewProducts = () => {
     const totalProductCount = useSelector((state: RootState) => state.shop.totalProductCount);
     const [showMore, setShowMore] = useState(8);
 
+    
     useEffect(() => {
         dispatch(getFilteredProducts({
             take: showMore,
