@@ -12,6 +12,7 @@ export const CheckoutYup = Yup.object({
     companyName: Yup.string()
         .max(30, 'Must be 30 characters or less.'),
 
+    
     country: Yup.string()
         .required('Required'),
 
