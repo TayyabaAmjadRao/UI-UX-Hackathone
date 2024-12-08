@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 
+
 export const ForgotPasswordYup = Yup.object({
     email: Yup.string()
         .required('Required')
