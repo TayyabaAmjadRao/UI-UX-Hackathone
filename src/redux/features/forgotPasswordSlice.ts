@@ -9,6 +9,7 @@ interface ForgotPasswordState {
     error: string
 };
 
+
 export const resetPassword = createAsyncThunk(
     'forgotPassword/resetPassword',
     async (forgotPasswordData: ResetPasswordType, { rejectWithValue }) => {
