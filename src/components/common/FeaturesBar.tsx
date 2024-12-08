@@ -3,6 +3,7 @@ import quality from '../../assets/images/hQ.svg';
 import shipping from '../../assets/images/shipping.svg';
 import support from '../../assets/images/customer-support.svg';
 
+
 const FeaturesBar = () => {
     return (
         <section className='bg-[#FAF3EA]'>
