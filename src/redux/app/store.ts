@@ -12,6 +12,7 @@ const persistConfig = {
   whitelist: ['wishlist']
 };
 
+
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 export const store = configureStore({
