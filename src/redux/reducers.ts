@@ -14,6 +14,7 @@ import cartReducer from '../redux/features/cartSlice';
 import forgotPasswordReducer from '../redux/features/forgotPasswordSlice';
 import reviewReducer from '../redux/features/reviewSlice';
 
+
 export const rootReducer = combineReducers({
     wishlist: wishlistReducer,
     product: productReducer,
