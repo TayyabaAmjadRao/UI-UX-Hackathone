@@ -18,6 +18,7 @@ const initialState: ProductState = {
     product: []
 };
 
+
 interface WishlistBody {
     userId: number,
     productId: number,
