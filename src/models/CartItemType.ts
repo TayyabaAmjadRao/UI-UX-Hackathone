@@ -7,6 +7,7 @@ export type CartItemType = {
     productImages: string[]
 };
 
+
 export type GetCartItemsType = {
     cartItems: [
         {
