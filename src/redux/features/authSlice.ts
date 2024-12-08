@@ -20,6 +20,7 @@ interface AuthState {
     loading: 'idle' | 'pending' | 'succeeded' | 'failed',
 };
 
+
 export const userRegister = createAsyncThunk('auth/userRegister', async (body: AppUserType, { rejectWithValue }) => {
     try {
         const response = await instance.post(`ApplicationUser/CreateUser`, body);
