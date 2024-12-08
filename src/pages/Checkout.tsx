@@ -2,6 +2,7 @@ import logo from '../assets/images/logo.svg';
 import { FeaturesBar, SecondaryHero, Reveal } from "../components/common/index";
 import CheckoutForm from "../components/checkout/CheckoutForm";
 
+
 const Checkout = () => {
     return (
         <>
