@@ -1,5 +1,6 @@
 import productRanges from "../../assets/const/productRange";
 
+
 const ProductRange = () => {
   return (
     <section className="bg-white">
