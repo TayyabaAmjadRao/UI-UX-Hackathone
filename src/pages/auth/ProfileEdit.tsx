@@ -7,6 +7,7 @@ import { RootState, useAppDispatch } from "../../redux/app/store";
 import { getUserById, updateUser } from "../../redux/features/authSlice";
 import { RegisterYup } from "./RegisterYup";
 
+
 const MySwal = withReactContent(Swal);
 
 const ProfileEdit = () => {
