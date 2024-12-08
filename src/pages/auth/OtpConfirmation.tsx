@@ -7,6 +7,7 @@ interface OtpConfirmationProps {
   setStepIndex: React.Dispatch<React.SetStateAction<number>> | undefined;
 };
 
+
 const OtpConfirmation: FC<OtpConfirmationProps> = ({ setStepIndex }) => {
   const [otp, setOtp] = useState<string[]>(new Array(6).fill(''));
   const [activeOTPIndex, setActiveOTPIndex] = useState<number>(0);
