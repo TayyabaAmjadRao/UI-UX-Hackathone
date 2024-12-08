@@ -15,6 +15,7 @@ interface ContactState {
     weekendWorkingTime: string
 };
 
+
 export const sendContactMessage = createAsyncThunk(
     'contact/sendContactMessage',
     async (contactData: ContactType, { rejectWithValue }) => {
