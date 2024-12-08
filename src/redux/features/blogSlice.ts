@@ -11,6 +11,7 @@ interface BlogState {
     totalCount: number
 };
 
+
 export const getBlogs = createAsyncThunk(
     'blogs/getBlogs',
     async ({ page, take, prompt, categoryId }: { take: number, page: number, prompt?: string, categoryId?: number }) => {
