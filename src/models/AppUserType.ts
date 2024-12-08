@@ -8,3 +8,4 @@ export type AppUserType = {
     roleId?: number,
     isActive?: boolean
 };
+
