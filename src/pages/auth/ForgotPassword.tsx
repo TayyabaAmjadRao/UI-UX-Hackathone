@@ -11,6 +11,7 @@ import { resetPassword } from '../../redux/features/forgotPasswordSlice';
 import { ForgotPasswordYup } from './ForgotPasswordYup';
 const MySwal = withReactContent(Swal);
 
+
 const ForgotPassword = () => {
     const dispatch = useAppDispatch();
     const [errorMsg, setErrorMsg] = useState('');
