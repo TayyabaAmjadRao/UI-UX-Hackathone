@@ -10,6 +10,7 @@ interface ProductState {
     totalCount: number
 };
 
+
 const initialState: ProductState = {
     filteredProducts: [],
     searchText: '',
