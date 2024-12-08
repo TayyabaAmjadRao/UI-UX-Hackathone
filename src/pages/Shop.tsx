@@ -23,7 +23,7 @@ const Shop = () => {
   const [sortBy, setSortBy] = useState('');
   const [isNew, setIsNew] = useState('');
 
-  useEffect(() => {
+  
     dispatch(getAllSizes());
     dispatch(getAllColors());
     dispatch(getAllTags());
