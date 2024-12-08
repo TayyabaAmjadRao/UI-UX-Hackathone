@@ -13,3 +13,4 @@ export type BlogType = {
     createdDate: string,
     imageUrls: string[],
 };
+
