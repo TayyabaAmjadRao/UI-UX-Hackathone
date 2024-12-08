@@ -7,6 +7,7 @@ import { RootState, useAppDispatch } from "../../redux/app/store";
 import { Pagination, ProductCard } from '../common/index';
 import { getWishlist } from "../../redux/features/wishlistSlice";
 
+
 const FavoritesContainer = () => {
     const { favorites, product } = useSelector((state: RootState) => state.wishlist);
     const perPage = 8;
