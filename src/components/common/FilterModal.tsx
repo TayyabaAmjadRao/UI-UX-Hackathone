@@ -4,6 +4,7 @@ import { useModal } from '../../contexts/ModalContext';
 const FilterModal = () => {
     const { closeModal } = useModal();
 
+    
     const handleBackgroundClick = (e: React.MouseEvent) => {
         if (e.target instanceof HTMLElement && e.target.classList.contains('filter-background')) {
             closeModal();
