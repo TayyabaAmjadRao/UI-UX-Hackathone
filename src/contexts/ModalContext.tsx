@@ -7,6 +7,7 @@ export const ModalContext = createContext({
     closeModal: () => { },
 });
 
+
 export const ModalProvider = ({ children }: ShoppinModalType) => {
     const [modal, setModal] = useState('');
 
