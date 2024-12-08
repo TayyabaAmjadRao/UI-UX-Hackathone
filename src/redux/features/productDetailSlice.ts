@@ -3,6 +3,7 @@ import { DescriptionType } from '../../models/DescriptionType';
 import { ProductTypes } from '../../models/productTypes';
 import instance from './apiConfig';
 
+
 interface ProductDetail {
     product: ProductTypes,
     loading: 'idle' | 'pending' | 'succeeded' | 'failed',
