@@ -12,6 +12,7 @@ export type CheckoutFormTypes = {
     note: string
 };
 
+
 export type CheckoutType = {
     appUserId: number,
     firstName: string,
