@@ -7,6 +7,7 @@ import { useModal } from "../../../contexts/ModalContext";
 import { RootState, useAppDispatch } from "../../../redux/app/store";
 import { getAllCartItemsByUserId, removeCartItem } from "../../../redux/features/cartSlice";
 
+
 const ShoppingModal = () => {
     const { modal, closeModal } = useModal();
 
