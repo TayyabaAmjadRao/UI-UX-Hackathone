@@ -3,6 +3,7 @@ import OtpConfirmation from "./OtpConfirmation"
 import SentOtpEmail from "./SentOtpEmail";
 import ForgotPassword from "./ForgotPassword";
 
+
 const ForgotPasswordPage = () => {
     const [stepIndex, setStepIndex] = useState(1);
 
