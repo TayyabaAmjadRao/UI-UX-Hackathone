@@ -11,6 +11,7 @@ const Register = () => {
   const dispatch = useAppDispatch();
   const navigate = useNavigate();
 
+  
   const [showPassword, setshowPassword] = useState(false);
   const [error, setError] = useState('');
 
