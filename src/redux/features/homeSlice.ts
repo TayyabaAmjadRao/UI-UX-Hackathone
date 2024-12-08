@@ -7,6 +7,8 @@ interface HomeState {
     loading: 'idle' | 'pending' | 'succeeded' | 'failed',
 };
 
+
+
 export const getGridImages = createAsyncThunk(
     'home/getGridImages',
     async () => {
