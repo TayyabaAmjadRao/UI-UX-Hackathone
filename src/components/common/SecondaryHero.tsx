@@ -10,6 +10,7 @@ const SecondaryHero: FC<SecondaryHeroType> = ({ title, logo, isSearch, searchTex
     saveSearchText && saveSearchText(text);
   };
 
+  
   const memoizedSearchText = useMemo(() => {
     return searchText;
   }, [searchText]);
