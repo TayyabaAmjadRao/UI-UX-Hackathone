@@ -6,6 +6,7 @@ interface PaginationState {
 
 const initialState: PaginationState = {
     currentPage: 1,
+    
 };
 
 const paginationSlice = createSlice({
