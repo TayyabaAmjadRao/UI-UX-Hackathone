@@ -3,6 +3,7 @@ import { RootState, useAppDispatch } from '../../redux/app/store';
 import { useEffect } from 'react';
 import { getGridImages } from '../../redux/features/homeSlice';
 
+
 const FuniroFurniture = () => {
     const gridImages = useSelector((state: RootState) => state.home.images);
 
