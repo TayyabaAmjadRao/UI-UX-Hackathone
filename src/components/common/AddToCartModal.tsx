@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import closeIcon from '../../assets/images/closeModal.svg';
 import { RootState } from "../../redux/app/store";
 
+
 interface AddToCartModalProps {
     children: ReactNode,
     isModalOpen?: boolean,
