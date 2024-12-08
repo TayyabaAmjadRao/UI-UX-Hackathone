@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+
 const PrimaryHero = () => {
   return (
     <section className='bg-primary-hero-image w-full bg-fixed bg-center bg-no-repeat bg-cover md:bg-top font-Poppins' style={{height: "100svh"}}>
