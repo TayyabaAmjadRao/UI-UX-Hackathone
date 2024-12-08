@@ -3,6 +3,7 @@ import ShoppinModal from './ShoppinModal';
 import FilterModal from "../FilterModal";
 
 interface IModal {
+    
     [key: string]: React.ComponentType<any>;
 };
 
