@@ -1,6 +1,7 @@
 import React, { ReactNode, useEffect, useRef } from 'react';
 import { motion, useInView, useAnimation } from 'framer-motion';
 
+
 interface RevealProps {
     children: ReactNode;
 };
