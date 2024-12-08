@@ -2,6 +2,7 @@ import { FC, useEffect, useState } from "react";
 import { useAppDispatch } from "../../redux/app/store";
 import { onClickCurrentPage } from "../../redux/features/paginationSlice";
 
+
 interface PaginationProps {
     page: number,
     total: number
