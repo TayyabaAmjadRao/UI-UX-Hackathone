@@ -5,6 +5,7 @@ import SLickRoomSlider from "../components/home/SLickRoomSlider";
 import { Reveal } from "../components/common/index";
 import PrimaryHero from "../components/home/PrimaryHero";
 
+
 const Home = () => {
   return (
     <>
