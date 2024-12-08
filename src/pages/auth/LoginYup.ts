@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 
+
 export const LoginYup = Yup.object({
     userName: Yup.string()
         .required('Required')
