@@ -16,6 +16,7 @@ const SentOtpEmail: FC<SendOtpEmailProps> = ({ setStepIndex }) => {
     initialValues: {
       email: "",
     },
+    
     validationSchema: SendOtpEmailYup,
     onSubmit: () => { }
   });
