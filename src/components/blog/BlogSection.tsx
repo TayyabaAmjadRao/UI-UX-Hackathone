@@ -9,6 +9,7 @@ import { RootState, useAppDispatch } from '../../redux/app/store';
 import { getBlogCategories, getBlogs, getRecentBlogs } from '../../redux/features/blogSlice';
 import { Pagination } from '../common/index';
 
+
 const BlogSection = () => {
     const { blogs, categories, recentBlogs, totalCount } = useSelector((state: RootState) => state.blog);
 
