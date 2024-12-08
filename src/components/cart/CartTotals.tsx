@@ -5,6 +5,7 @@ import deleteIcon from '../../assets/images/deleteIcon.svg';
 import { RootState, useAppDispatch } from '../../redux/app/store';
 import { clearCart, getAllCartItemsByUserId, removeCartItem } from '../../redux/features/cartSlice';
 
+
 const CartTotals = () => {
     const dispatch = useAppDispatch();
     const userId = localStorage.getItem('userId');
